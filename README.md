@@ -1,0 +1,1 @@
+This is a test case to illustrate that iron-router 1.0.3 subscriptions doesn't work. The issue only exists if the subscriptions is put in Router.configure.

@@ -1,0 +1,15 @@
+<head>
+</head>
+
+
+<template name="layout">
+    <div id="content" class="container-fluid">
+      {{> yield}}
+    </div>
+</template>
+
+<template name="home">
+  {{#each data}}
+    <div>{{test}}</div>
+  {{/each}}
+</template>
